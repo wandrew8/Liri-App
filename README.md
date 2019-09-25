@@ -4,10 +4,10 @@
 
 The LIRI Bot is a "Language Interpretation and Recognition Interface". It works by using set commands to retrieve information regarding movie and music information. This program uses many different third-party Node packages to retrieve the requested information. You can find a link to each of them here:
 
- [Axios](https://www.npmjs.com/package/axios)
- [node-spotify-api](https://www.npmjs.com/package/node-spotify-api)
- [moment](https://www.npmjs.com/package/moment)
- [dotenv](https://www.npmjs.com/package/dotenv)
+ - [Axios](https://www.npmjs.com/package/axios)
+ - [node-spotify-api](https://www.npmjs.com/package/node-spotify-api)
+ - [moment](https://www.npmjs.com/package/moment)
+ - [dotenv](https://www.npmjs.com/package/dotenv)
 
 Take a look at how the LIRI Bot works:
 
@@ -42,10 +42,10 @@ Within the liri.js terminal enter the following into the command line:
             
 Follow the above with one of the commands below along with its required parameters. Then press ENTER to run the command.
 
-concert-this "Artist Name" | This command pulls a list of upcoming concerts for the specified artist.
-spotify-this-song "Artist Name" | This command pulls up artist and album info for the corresponding artist.
-movie-this "Movie Title" | This command pulls information on the searched movie.
-do-what-this-says "no parameters" | Pulls a command and parameter from an external text file. 
+   - concert-this "Artist Name" | This command pulls a list of upcoming concerts for the specified artist.
+   - spotify-this-song "Artist Name" | This command pulls up artist and album info for the corresponding artist.
+   - movie-this "Movie Title" | This command pulls information on the searched movie.
+   - do-what-this-says "no parameters" | Pulls a command and parameter from an external text file. 
 
 Here are two examples of how to search using the LIRI Bot:
  - node .\liri.js concert-this taylor swift
